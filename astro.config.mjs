@@ -7,7 +7,7 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), markdoc(), keystatic()],
-  output: "server",
+  output: "hybrid",
   adapter: cloudflare(),
 });
 
